@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write --plugin=prettier-plugin-organize-imports --plugin=prettier-plugin-tailwindcss .",
+    "format:check": "prettier --check --plugin=prettier-plugin-organize-imports --plugin=prettier-plugin-tailwindcss ."
   },
   "dependencies": {
     "next": "15.0.3",
